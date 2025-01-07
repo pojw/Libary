@@ -1,0 +1,23 @@
+
+
+.container{
+
+    display:grid;
+    justify-content: center;
+    grid-template-rows:400px 400px;
+   
+
+}
+.top-row{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+}
+
+.books{
+    display:flex;
+    gap:15px;
+    
+}
+
+
