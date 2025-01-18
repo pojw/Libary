@@ -14,10 +14,26 @@
     gap:15px;
 }
 
-.books{
+#books{
     display:flex;
     gap:15px;
+
+  
     
 }
 
+.blue{
+    background:red;
+}
 
+.card{display:grid;
+    border-radius:15px;
+    grid-template-rows: repeat(4,40px);
+   
+}
+
+.description{
+    display:flex;
+    gap:10px;
+    background: blue;
+}
